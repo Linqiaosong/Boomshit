@@ -1,6 +1,9 @@
 #include<iostream>
+
 using namespace std;
+
 void Print(long n,long N);
+
 int main()
 {
   long n,i;
@@ -12,18 +15,19 @@ int main()
   cout<<"Merry Christmas!"<<endl;
   return 0;
 }
+
 void Print(long n,long N)
 {
   long al=1,sp=N,i;
   for(i=0; i<n; i++)
-{
-  long j=0;
-  for(; j<sp; j++)
-    cout<<' ';
-  for(;j<sp+al;j++)
-    cout<<'*';
-  sp = sp-1;
-  al = al+2;
-  cout<<'\n';
-}
+  {
+    long j=0;
+    for(; j<sp; j++)
+      cout<<' ';
+    for(;j<sp+al;j++)
+      cout<<'*';
+    sp = sp-1;
+    al = al+2;
+    cout<<'\n';
+  }
 }
