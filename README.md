@@ -1,2 +1,2 @@
-# Boomshit
-Some messy things
+# C++ notebook
+The notebook of cpp study
