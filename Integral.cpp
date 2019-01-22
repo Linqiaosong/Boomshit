@@ -6,15 +6,15 @@ int main()
 	double s = 0, a, b, func;
 	long n;
 	cout << "Input a,b\n";
-	cin >> a >> b;//»ý·Ö¶Ëµã
+	cin >> a >> b;//ç§¯åˆ†ç«¯ç‚¹
 	double i = a;
 	cout << "Input n\n";
-	cin >> n;//·Ö¶ÎÊý
+	cin >> n;//åˆ†æ®µæ•°
 	double d;
 	d = (b - a) / n;
 	while (i <= b)
 	{
-		func = i*i;//±»»ýº¯Êý
+		func = i*i;//è¢«ç§¯å‡½æ•°
 		s += func*d;
 		i = i + d;
 	}
